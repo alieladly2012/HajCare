@@ -2323,7 +2323,7 @@
     width: 73%; }
   .navbar .navbar-header {
     display: inline-block;
-    margin-bottom: -6px;
+    /*margin-bottom: -6px;*/
     width: calc(100% + 30px); }
   .navbar .nav > li {
     display: inline-block; }
@@ -2480,7 +2480,7 @@ section.content {
     -webkit-border-radius: 50% !important;
     -moz-border-radius: 50% !important;
     -ms-border-radius: 5% !important;
-    border-radius: 5% !important;
+    border-radius: 50% !important;
 }
 
     .btn-circle-xlg i {
@@ -2825,7 +2825,7 @@ section.content {
 
 /* Card ======================================== */
 .card {
-    background: #ffffffdb;
+    background-color: rgba(255, 255, 255, 0.84);
     min-height: 50px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position: relative;
